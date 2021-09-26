@@ -4,7 +4,7 @@
 
 import { render } from "@testing-library/react";
 
-import Index from "../../pages";
+import Index from "../../src/pages";
 
 describe("Index", () => {
   test("renders", () => {
