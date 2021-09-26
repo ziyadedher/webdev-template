@@ -44,6 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/addon-postcss", "npm:2.0.0"],
             ["@storybook/react", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:6.3.8"],
             ["@types/babel__core", "npm:7.1.16"],
+            ["@types/jest", "npm:27.0.2"],
             ["@types/mdx-js__react", "npm:1.5.4"],
             ["@types/node", "npm:16.7.12"],
             ["@types/react", "npm:17.0.20"],
@@ -7138,6 +7139,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@types/istanbul-reports", "npm:3.0.1"],
             ["@types/istanbul-lib-report", "npm:3.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/jest", [
+        ["npm:27.0.2", {
+          "packageLocation": "./.yarn/cache/@types-jest-npm-27.0.2-f9ba43c7f9-814ad5f5d2.zip/node_modules/@types/jest/",
+          "packageDependencies": [
+            ["@types/jest", "npm:27.0.2"],
+            ["jest-diff", "npm:27.2.2"],
+            ["pretty-format", "npm:27.2.2"]
           ],
           "linkType": "HARD",
         }]
@@ -21818,6 +21830,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/addon-postcss", "npm:2.0.0"],
             ["@storybook/react", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:6.3.8"],
             ["@types/babel__core", "npm:7.1.16"],
+            ["@types/jest", "npm:27.0.2"],
             ["@types/mdx-js__react", "npm:1.5.4"],
             ["@types/node", "npm:16.7.12"],
             ["@types/react", "npm:17.0.20"],
