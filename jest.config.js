@@ -5,8 +5,8 @@ module.exports = {
 
   clearMocks: true,
   collectCoverage: true,
-  collectCoverageFrom: ["logic/**/*.{ts,tsx}", "pages/**/*.{ts,tsx}"],
-  coveragePathIgnorePatterns: ["/node_modules/", "pages/_app.tsx"],
+  collectCoverageFrom: ["src/**/*.{ts,tsx}"],
+  coveragePathIgnorePatterns: ["/node_modules/", "src/pages/_app.tsx"],
   coverageProvider: "v8",
   // coverageThreshold: undefined,
 

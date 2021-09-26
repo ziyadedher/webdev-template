@@ -1,6 +1,6 @@
 import { Meta, Story } from "@storybook/react";
 
-import Index from "../pages/index";
+import Index from "../src/pages/index";
 
 export default {
   title: "Pages/Index",
