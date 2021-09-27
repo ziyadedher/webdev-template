@@ -1,4 +1,4 @@
-import { NextPage } from "next";
+import type { NextPage } from "next";
 
 const Index: NextPage = () => <p>Hello, world!</p>;
 
