@@ -7,7 +7,7 @@ const Index: NextPage = () => (
     <div className="text-center">
       <h1 className="text-6xl text-gray-700">Hello, world!</h1>
       <h2 className="pt-4">
-        Welcome to{" "}
+        This is{" "}
         <Link href="https://twitter.com/ziyadedher">
           <a
             href="https://twitter.com/ziyadedher"
