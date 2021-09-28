@@ -14,3 +14,5 @@ jobs:
         run: yarn test
       - name: Run Codecov
         run: yarn codecov
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
