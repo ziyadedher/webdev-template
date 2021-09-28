@@ -5,15 +5,65 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <p>
-        Hello, world!
-      </p>
+      <div
+        class="container flex flex-row justify-center items-center mx-auto h-screen"
+      >
+        <div
+          class="text-center"
+        >
+          <h1
+            class="text-6xl text-gray-700"
+          >
+            Hello, world!
+          </h1>
+          <h2
+            class="pt-4"
+          >
+            This is
+             
+            <a
+              class="text-blue-500"
+              href="https://twitter.com/ziyadedher"
+              rel="noreferrer"
+              target="_blank"
+            >
+              @ziyadedher
+            </a>
+            ’s webapp template.
+          </h2>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <p>
-      Hello, world!
-    </p>
+    <div
+      class="container flex flex-row justify-center items-center mx-auto h-screen"
+    >
+      <div
+        class="text-center"
+      >
+        <h1
+          class="text-6xl text-gray-700"
+        >
+          Hello, world!
+        </h1>
+        <h2
+          class="pt-4"
+        >
+          This is
+           
+          <a
+            class="text-blue-500"
+            href="https://twitter.com/ziyadedher"
+            rel="noreferrer"
+            target="_blank"
+          >
+            @ziyadedher
+          </a>
+          ’s webapp template.
+        </h2>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
