@@ -1,4 +1,4 @@
-name: 'Chromatic (for Storybook)'
+name: Chromatic (for Storybook)
 
 on: push
 
