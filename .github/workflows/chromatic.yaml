@@ -3,7 +3,7 @@ name: 'Chromatic (for Storybook)'
 on: push
 
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -12,7 +12,7 @@ jobs:
       - name: Install dependencies
         # https://github.com/CrossroadsCX/action/blob/afe74f34a1608ecb8571b65163a7695ecf1af0d4/README.md#yarn-2-support
         run: |
-          echo 'nodeLinker : "node-modules"' >> .yarnrc.yaml
+          echo 'nodeLinker : "node-modules"' >> .yarnrc.yml
           yarn rebuild
           yarn build
       - name: Publish to Chromatic
