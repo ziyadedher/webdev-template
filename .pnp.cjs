@@ -45,7 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/addon-postcss", "npm:2.0.0"],
             ["@storybook/react", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:6.3.8"],
             ["@testing-library/jest-dom", "npm:5.14.1"],
-            ["@testing-library/react", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:12.1.0"],
+            ["@testing-library/react", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:12.1.1"],
             ["@types/babel__core", "npm:7.1.16"],
             ["@types/eslint", "npm:7.28.0"],
             ["@types/jest", "npm:27.0.2"],
@@ -7318,17 +7318,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@testing-library/react", [
-        ["npm:12.1.0", {
-          "packageLocation": "./.yarn/cache/@testing-library-react-npm-12.1.0-0552057b66-84ab074f12.zip/node_modules/@testing-library/react/",
+        ["npm:12.1.1", {
+          "packageLocation": "./.yarn/cache/@testing-library-react-npm-12.1.1-69d28b273b-1882161426.zip/node_modules/@testing-library/react/",
           "packageDependencies": [
-            ["@testing-library/react", "npm:12.1.0"]
+            ["@testing-library/react", "npm:12.1.1"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:12.1.0", {
-          "packageLocation": "./.yarn/__virtual__/@testing-library-react-virtual-9ae856103c/0/cache/@testing-library-react-npm-12.1.0-0552057b66-84ab074f12.zip/node_modules/@testing-library/react/",
+        ["virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:12.1.1", {
+          "packageLocation": "./.yarn/__virtual__/@testing-library-react-virtual-444b9dc5aa/0/cache/@testing-library-react-npm-12.1.1-69d28b273b-1882161426.zip/node_modules/@testing-library/react/",
           "packageDependencies": [
-            ["@testing-library/react", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:12.1.0"],
+            ["@testing-library/react", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:12.1.1"],
             ["@babel/runtime", "npm:7.15.4"],
             ["@testing-library/dom", "npm:8.6.0"],
             ["@types/react", "npm:17.0.24"],
@@ -25168,7 +25168,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/addon-postcss", "npm:2.0.0"],
             ["@storybook/react", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:6.3.8"],
             ["@testing-library/jest-dom", "npm:5.14.1"],
-            ["@testing-library/react", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:12.1.0"],
+            ["@testing-library/react", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:12.1.1"],
             ["@types/babel__core", "npm:7.1.16"],
             ["@types/eslint", "npm:7.28.0"],
             ["@types/jest", "npm:27.0.2"],
