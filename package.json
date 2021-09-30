@@ -43,7 +43,7 @@
     "@ziyadedher/eslint-config": "1.1.0",
     "autoprefixer": "10.3.6",
     "babel-loader": "8.2.2",
-    "chromatic": "5.10.1",
+    "chromatic": "5.10.2",
     "codecov": "3.8.3",
     "eslint": "7.32.0",
     "eslint-plugin-eslint-comments": "3.2.0",
