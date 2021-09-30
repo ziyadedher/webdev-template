@@ -8470,7 +8470,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:24.4.2, eslint-plugin-jest@npm:^24.4.0":
+"eslint-plugin-jest@npm:24.5.0":
+  version: 24.5.0
+  resolution: "eslint-plugin-jest@npm:24.5.0"
+  dependencies:
+    "@typescript-eslint/experimental-utils": ^4.0.1
+  peerDependencies:
+    "@typescript-eslint/eslint-plugin": ">= 4"
+    eslint: ">=5"
+  peerDependenciesMeta:
+    "@typescript-eslint/eslint-plugin":
+      optional: true
+  checksum: 6f7eacb7e3ba60a90d23d998c97dfa2eec46694b1c2102bf585bf0e60a5bb6b31f880d49a569813b70da45e6449b1db0dfad646c1204e2d27be8eca039bcbc63
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-jest@npm:^24.4.0":
   version: 24.4.2
   resolution: "eslint-plugin-jest@npm:24.4.2"
   dependencies:
@@ -18667,7 +18682,7 @@ typescript@^4.4.2:
     eslint-import-resolver-node: 0.3.6
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-import: 2.24.2
-    eslint-plugin-jest: 24.4.2
+    eslint-plugin-jest: 24.5.0
     eslint-plugin-jsx-a11y: 6.4.1
     eslint-plugin-node: 11.1.0
     eslint-plugin-react: 7.26.0
