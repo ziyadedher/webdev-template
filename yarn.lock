@@ -6530,9 +6530,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:5.10.1":
-  version: 5.10.1
-  resolution: "chromatic@npm:5.10.1"
+"chromatic@npm:5.10.2":
+  version: 5.10.2
+  resolution: "chromatic@npm:5.10.2"
   dependencies:
     "@actions/core": ^1.5.0
     "@actions/github": ^5.0.0
@@ -6577,7 +6577,7 @@ __metadata:
     chroma: bin/register.js
     chromatic: bin/register.js
     chromatic-cli: bin/register.js
-  checksum: 3cf2776eb04204a6641fde1712a85c1014e4e4a1664d1e8a837acebab7d447fb9ff7e3199bd3f5527bef50bcb24578ecfca8ea8694c874b30f50262ea726c850
+  checksum: b99566b0dc7e630eba4a97189ba1adf8fcf884893accd5aefdc9b9f06ab8ede4ecc6f4a8a874ddbbd388379095ba413fe4eec82bcf48eb51eabf36e17297585b
   languageName: node
   linkType: hard
 
@@ -18687,7 +18687,7 @@ typescript@^4.4.2:
     "@ziyadedher/eslint-config": 1.1.0
     autoprefixer: 10.3.6
     babel-loader: 8.2.2
-    chromatic: 5.10.1
+    chromatic: 5.10.2
     codecov: 3.8.3
     eslint: 7.32.0
     eslint-import-resolver-node: 0.3.6
