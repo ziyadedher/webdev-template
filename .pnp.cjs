@@ -73,7 +73,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-tailwindcss", "npm:1.16.1"],
             ["jest", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:27.2.4"],
             ["next", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:11.1.2"],
-            ["postcss", "npm:8.3.8"],
+            ["postcss", "npm:8.3.9"],
             ["prettier", "npm:2.4.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:17.0.2"],
@@ -9754,7 +9754,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fraction.js", "npm:4.1.1"],
             ["normalize-range", "npm:0.1.2"],
             ["picocolors", "npm:0.2.1"],
-            ["postcss", "npm:8.3.8"],
+            ["postcss", "npm:8.3.9"],
             ["postcss-value-parser", "npm:4.1.0"]
           ],
           "packagePeers": [
@@ -20741,6 +20741,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["source-map-js", "npm:0.6.2"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:8.3.9", {
+          "packageLocation": "./.yarn/cache/postcss-npm-8.3.9-f40ddb7d0e-b64d0e59bc.zip/node_modules/postcss/",
+          "packageDependencies": [
+            ["postcss", "npm:8.3.9"],
+            ["nanoid", "npm:3.1.28"],
+            ["picocolors", "npm:0.2.1"],
+            ["source-map-js", "npm:0.6.2"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["postcss-flexbugs-fixes", [
@@ -20901,6 +20911,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss-nested", "virtual:17d63bb97a178e6c99ecb1d70833ed82fea0177fefee5955748357a12c0dcb1143c91f0633fbb2e2fe8792d1ddd105fff3fe01a335819b42e7aaa83e29e29ba2#npm:5.0.6"],
             ["@types/postcss", null],
             ["postcss", "npm:8.3.8"],
+            ["postcss-selector-parser", "npm:6.0.6"]
+          ],
+          "packagePeers": [
+            "@types/postcss",
+            "postcss"
+          ],
+          "linkType": "HARD",
+        }],
+        ["virtual:699f3528825932cfe66828c8d9101bf78f28b5e04da77e46074ba4ea29bd33721cadb965d7b1bc36825a2f1d9cfde9c9297a10beb2c79539b9ad04be8819087c#npm:5.0.6", {
+          "packageLocation": "./.yarn/__virtual__/postcss-nested-virtual-3573c7683d/0/cache/postcss-nested-npm-5.0.6-d408d3cd6e-dbcbfd11e5.zip/node_modules/postcss-nested/",
+          "packageDependencies": [
+            ["postcss-nested", "virtual:699f3528825932cfe66828c8d9101bf78f28b5e04da77e46074ba4ea29bd33721cadb965d7b1bc36825a2f1d9cfde9c9297a10beb2c79539b9ad04be8819087c#npm:5.0.6"],
+            ["@types/postcss", null],
+            ["postcss", "npm:8.3.9"],
             ["postcss-selector-parser", "npm:6.0.6"]
           ],
           "packagePeers": [
@@ -24043,10 +24067,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["node-emoji", "npm:1.11.0"],
             ["normalize-path", "npm:3.0.0"],
             ["object-hash", "npm:2.2.0"],
-            ["postcss", "npm:8.3.8"],
+            ["postcss", "npm:8.3.9"],
             ["postcss-js", "npm:3.0.3"],
             ["postcss-load-config", "virtual:17d63bb97a178e6c99ecb1d70833ed82fea0177fefee5955748357a12c0dcb1143c91f0633fbb2e2fe8792d1ddd105fff3fe01a335819b42e7aaa83e29e29ba2#npm:3.1.0"],
-            ["postcss-nested", "virtual:17d63bb97a178e6c99ecb1d70833ed82fea0177fefee5955748357a12c0dcb1143c91f0633fbb2e2fe8792d1ddd105fff3fe01a335819b42e7aaa83e29e29ba2#npm:5.0.6"],
+            ["postcss-nested", "virtual:699f3528825932cfe66828c8d9101bf78f28b5e04da77e46074ba4ea29bd33721cadb965d7b1bc36825a2f1d9cfde9c9297a10beb2c79539b9ad04be8819087c#npm:5.0.6"],
             ["postcss-selector-parser", "npm:6.0.6"],
             ["postcss-value-parser", "npm:4.1.0"],
             ["pretty-hrtime", "npm:1.0.3"],
@@ -25593,7 +25617,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-tailwindcss", "npm:1.16.1"],
             ["jest", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:27.2.4"],
             ["next", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:11.1.2"],
-            ["postcss", "npm:8.3.8"],
+            ["postcss", "npm:8.3.9"],
             ["prettier", "npm:2.4.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:17.0.2"],
