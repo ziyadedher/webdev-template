@@ -19,7 +19,7 @@
     "tailwindcss": "2.2.16"
   },
   "devDependencies": {
-    "@babel/core": "7.15.5",
+    "@babel/core": "7.15.8",
     "@mdx-js/react": "1.6.22",
     "@next/eslint-plugin-next": "11.1.2",
     "@storybook/addon-actions": "6.3.10",
