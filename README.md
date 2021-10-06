@@ -42,4 +42,37 @@ To get started follow the instructions in [Get Started](#get-started). For detai
 ## Get Started
 
 ## Details for Nerds
-All right, buckle up. In this section we're going to talk about every single file in this repository, what the point of it is, and direct you to references to learn more and configure those files if you want to. 
+
+### Tech Stack
+
+#### Application Logic
+
+#### Application Framework
+
+#### Testing
+
+#### Linting
+
+#### Deployment (and CI/CD)
+
+#### Dependency Management
+
+### Files
+All right nerds, buckle up. In this section we're going to talk about every single file in this repository, what the point of it is, and direct you to references to learn more and configure those files if you want to. 
+
+#### Meta
+
+#### GitHub
+
+#### Typescript, Node, Yarn, and NPM
+
+#### Next.js and Application
+
+#### Storybook
+
+#### TailwindCSS and Friends
+
+#### Testing
+
+
+#### Linting
