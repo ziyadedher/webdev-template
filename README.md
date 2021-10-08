@@ -2,11 +2,11 @@
     <a href="https://twitter.com" target="_blank" rel="noreferrer">
         @ziyadedher
     </a>'s WebDev Template
-    <br />
-    <span style="font-size: 1.2rem; color: silver;">
-        (Next.js + TailwindCSS + other goodies)
-    </span>
 </h1>
+<h3 align="center">
+    (Next.js + TailwindCSS + other goodies)
+</h3>
+<br />
 
 <p align="center">
     <a href="https://vercel.com/ziyadedher/webdev-template">
