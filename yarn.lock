@@ -1900,6 +1900,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@headlessui/react@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "@headlessui/react@npm:1.4.1"
+  peerDependencies:
+    react: ^16 || ^17 || ^18
+    react-dom: ^16 || ^17 || ^18
+  checksum: e036941e31b02a17e8c27b018d40cced1e7165ec85ce00cddf74884349e86cb7ef75e3c645d7d0f133f63dfbac97ad4a5765d996db3b8f3cc4a678c84402ad6e
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.5.0":
   version: 0.5.0
   resolution: "@humanwhocodes/config-array@npm:0.5.0"
@@ -18551,6 +18561,7 @@ resolve@^2.0.0-next.3:
   resolution: "webdev-template@workspace:."
   dependencies:
     "@babel/core": 7.15.8
+    "@headlessui/react": ^1.4.1
     "@mdx-js/react": 1.6.22
     "@next/eslint-plugin-next": 11.1.2
     "@storybook/addon-actions": 6.3.10
