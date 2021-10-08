@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint 'src/**' 'tests/**' 'stories/**'",
     "test": "jest",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@headlessui/react": "1.4.1",
