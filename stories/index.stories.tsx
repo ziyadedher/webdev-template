@@ -1,11 +1,12 @@
-import { Meta, Story } from "@storybook/react";
+import IndexPage from "../src/pages";
 
-import Index from "../src/pages/index";
+import type { Meta, Story } from "@storybook/react";
 
-export default {
+const META: Meta = {
   title: "Pages/Index",
-  component: Index,
-} as Meta;
+  component: IndexPage,
+};
 
-export const Default: Story = () => <Index />;
-Default.storyName = "Index";
+export const Index: Story = () => <IndexPage />;
+
+export default META;
