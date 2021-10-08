@@ -62,6 +62,7 @@ This WebDev template is fundementally based on Next.js (w/ React), that's what b
 
 #### Application Development
 - [TailwindCSS](https://tailwindcss.com/) — utility-first CSS framework. Lots of great composable classes. You probably won't need a single line of custom CSS when using TailwindCSS.
+- [Headless UI](https://headlessui.dev) — unstyled basic UI components, built to integrate with TailwindCSS.
 
 #### Application Framework
 - [React](https://reactjs.org/) — trusty React. Front-end framework that helps in building declarative, component-based user interfaces. One of the things React does is let us get rid of HTML files in favour of JSX.
