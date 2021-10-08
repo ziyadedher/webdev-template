@@ -12,7 +12,9 @@ module.exports = {
   },
   extends: ["@ziyadedher"],
   rules: {
-    "react/require-default-props": "off",
+    "react/destructuring-assignment": ["error", "always"],
+    "react/require-default-props": ["off"],
+    "node/no-unpublished-import": ["off"],
   },
   settings: {
     "import/parsers": {
@@ -25,7 +27,10 @@ module.exports = {
       },
     },
     node: {
-      tryExtensions: [".js", ".jsx", ".ts", ".tsx", ".d.ts", ".d.ts"],
+      tryExtensions: [".json", ".js", ".jsx", ".ts", ".tsx", ".d.ts", ".d.ts"],
+    },
+    react: {
+      version: "detect",
     },
   },
 };
