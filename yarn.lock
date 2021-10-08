@@ -8433,7 +8433,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:^0.3.6":
+"eslint-import-resolver-node@npm:0.3.6, eslint-import-resolver-node@npm:^0.3.6":
   version: 0.3.6
   resolution: "eslint-import-resolver-node@npm:0.3.6"
   dependencies:
@@ -18605,7 +18605,7 @@ resolve@^2.0.0-next.3:
     chromatic: 5.10.2
     codecov: 3.8.3
     eslint: 7.32.0
-    eslint-import-resolver-node: ^0.3.6
+    eslint-import-resolver-node: 0.3.6
     eslint-import-resolver-typescript: 2.5.0
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-import: 2.24.2
