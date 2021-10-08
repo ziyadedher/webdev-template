@@ -4,7 +4,7 @@
     </a>'s WebDev Template
 </h1>
 <h3 align="center">
-    (Next.js + TailwindCSS + other goodies)
+    (TypeScript + Next.js + TailwindCSS + other goodies)
 </h3>
 <br />
 
