@@ -69,6 +69,7 @@ This WebDev template is fundementally based on Next.js (w/ React), that's what b
 - [Next.js](https://nextjs.org/) — modern development framework built on top of React. Makes it a lot quicker to build your actual web application. Their website has a great tutorial!
 #### Testing and Coverage
 - [Jest](https://jestjs.io/) — simple Javascript testing framework. We include a compatibility layer ([ts-jest](https://github.com/kulshekhar/ts-jest)) so we can use Jest with TypeScript more easily.
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) — light-weight user-centric React component testing library.
 - [Codecov](https://about.codecov.io/) — code coverage framework and host. This comes with a neat dashboard and GitHub integration.
 - [Storybook](https://storybook.js.org) — UI component explorer. Use this to prototype and build components and pages in isolation.
 #### Linting and Formatting
