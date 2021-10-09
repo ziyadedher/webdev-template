@@ -21,16 +21,37 @@ Object {
           >
             This is
              
-            <a
-              class="text-blue-500"
-              href="https://twitter.com/ziyadedher"
-              rel="noreferrer"
-              target="_blank"
+            <span
+              class="text-blue-500 hover:text-blue-700"
             >
-              @ziyadedher
-            </a>
+              <a
+                href="https://twitter.com/ziyadedher"
+                rel="noreferrer"
+                target="_blank"
+              >
+                @ziyadedher
+              </a>
+            </span>
             ’s webapp template.
           </h2>
+          <h3
+            class="pt-3"
+          >
+            Check this template out on
+             
+            <span
+              class="text-blue-500 hover:text-blue-700"
+            >
+              <a
+                href="https://github.com/ziyadedher/webdev-template"
+                rel="noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </span>
+            !
+          </h3>
         </div>
       </div>
     </div>
@@ -52,16 +73,37 @@ Object {
         >
           This is
            
-          <a
-            class="text-blue-500"
-            href="https://twitter.com/ziyadedher"
-            rel="noreferrer"
-            target="_blank"
+          <span
+            class="text-blue-500 hover:text-blue-700"
           >
-            @ziyadedher
-          </a>
+            <a
+              href="https://twitter.com/ziyadedher"
+              rel="noreferrer"
+              target="_blank"
+            >
+              @ziyadedher
+            </a>
+          </span>
           ’s webapp template.
         </h2>
+        <h3
+          class="pt-3"
+        >
+          Check this template out on
+           
+          <span
+            class="text-blue-500 hover:text-blue-700"
+          >
+            <a
+              href="https://github.com/ziyadedher/webdev-template"
+              rel="noreferrer"
+              target="_blank"
+            >
+              GitHub
+            </a>
+          </span>
+          !
+        </h3>
       </div>
     </div>
   </div>,
