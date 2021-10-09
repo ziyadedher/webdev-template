@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint 'src/**' 'tests/**' 'stories/**'",
-    "test": "jest",
+    "test": "jest --onlyChanged",
+    "test:watch": "jest --watch --notify",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
