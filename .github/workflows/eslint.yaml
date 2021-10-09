@@ -11,4 +11,4 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Run ESLint
-        run: yarn eslint 'src/**'
+        run: yarn lint
