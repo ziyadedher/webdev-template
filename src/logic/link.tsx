@@ -29,7 +29,7 @@ const Link: React.FunctionComponent<LinkProps> = ({
       // eslint-disable-next-line react/jsx-props-no-spreading -- unforunately, there's no cleaner way to do this that I can think of.
       {...(shouldOpenInNewPage ? { target: "_blank", rel: "noreferrer" } : {})}
     >
-      {myNewFunction(true)}
+      {myNewFunction(true) === 20 ? null : 10}
       {children}
     </a>
   </NextLink>
