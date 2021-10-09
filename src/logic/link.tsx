@@ -4,7 +4,6 @@ import React from "react";
 interface LinkProps {
   readonly href: string;
   readonly shouldOpenInNewPage?: boolean;
-  readonly isAllCaps?: boolean;
   readonly children?: React.ReactNode | null;
 }
 
