@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "../logic/link";
 
 import type { NextPage } from "next";
 
@@ -8,18 +8,25 @@ const Index: NextPage = () => (
       <h1 className="text-6xl text-gray-700">Hello, world!</h1>
       <h2 className="pt-4">
         This is{" "}
-        <Link href="https://twitter.com/ziyadedher">
-          <a
-            href="https://twitter.com/ziyadedher"
-            target="_blank"
-            rel="noreferrer"
-            className="text-blue-500"
-          >
+        <span className="text-blue-500 hover:text-blue-700">
+          <Link href="https://twitter.com/ziyadedher" shouldOpenInNewPage>
             @ziyadedher
-          </a>
-        </Link>
+          </Link>
+        </span>
         &rsquo;s webapp template.
       </h2>
+      <h3 className="pt-3">
+        Check this template out on{" "}
+        <span className="text-blue-500 hover:text-blue-700">
+          <Link
+            href="https://github.com/ziyadedher/webdev-template"
+            shouldOpenInNewPage
+          >
+            GitHub
+          </Link>
+        </span>
+        !
+      </h3>
     </div>
   </div>
 );
