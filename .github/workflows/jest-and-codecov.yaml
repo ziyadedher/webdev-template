@@ -8,11 +8,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Checkout main
-        run: |
-          git fetch --no-tags --depth=1 origin main
-          git checkout main
-          git checkout ${{ github.sha }}
+        with:
+          fetch-depth: 0
+      # - name: Checkout main
+      #   run: |
+      #     git fetch --no-tags --depth=1 origin main
+      #     git checkout main
+      #     git checkout ${{ github.sha }}
       - name: Install dependencies
         run: yarn install
       - name: Run Jest
