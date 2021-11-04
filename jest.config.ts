@@ -14,7 +14,8 @@ const CONFIG: Config.InitialOptions = {
   // NOTE: we need this to get around some weirdness with TSX + Jest
   globals: {
     "ts-jest": {
-      tsconfig: "tsconfig.jest.json",
+      tsconfig: ".jest/tsconfig.json",
+      isolatedModules: true,
     },
   },
 };
