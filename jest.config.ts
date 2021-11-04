@@ -1,5 +1,6 @@
-/** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
-module.exports = {
+import type { Config } from "@jest/types";
+
+const CONFIG: Config.InitialOptions = {
   preset: "ts-jest",
   testEnvironment: "node",
 
@@ -8,7 +9,7 @@ module.exports = {
   collectCoverageFrom: ["src/**/*.{ts,tsx}"],
   coveragePathIgnorePatterns: ["/node_modules/", "src/pages/_app.tsx"],
   coverageProvider: "v8",
-  // coverageThreshold: undefined,
+  // CoverageThreshold: undefined,
 
   // NOTE: we need this to get around some weirdness with TSX + Jest
   globals: {
@@ -17,3 +18,5 @@ module.exports = {
     },
   },
 };
+
+export default CONFIG;
