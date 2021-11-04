@@ -20,6 +20,6 @@
     "target": "es5",
     "moduleResolution": "node"
   },
-  "include": ["next-env.d.ts", ".eslintrc.js", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./*.config.js"],
   "exclude": ["node_modules"]
 }
