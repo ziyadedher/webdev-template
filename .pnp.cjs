@@ -54,7 +54,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:27.0.2"],
             ["@types/mdx-js__react", "npm:1.5.5"],
             ["@types/node", "npm:16.11.7"],
-            ["@types/prettier", "npm:2.4.1"],
+            ["@types/prettier", "npm:2.4.2"],
             ["@types/react", "npm:17.0.34"],
             ["@types/testing-library__jest-dom", "npm:5.14.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:5.3.1"],
@@ -7748,6 +7748,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-prettier-npm-2.4.1-d83bd651f7-df330c2d6f.zip/node_modules/@types/prettier/",
           "packageDependencies": [
             ["@types/prettier", "npm:2.4.1"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:2.4.2", {
+          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.4.2-290f200354-76e230b2d1.zip/node_modules/@types/prettier/",
+          "packageDependencies": [
+            ["@types/prettier", "npm:2.4.2"]
           ],
           "linkType": "HARD",
         }]
@@ -23971,7 +23978,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:27.0.2"],
             ["@types/mdx-js__react", "npm:1.5.5"],
             ["@types/node", "npm:16.11.7"],
-            ["@types/prettier", "npm:2.4.1"],
+            ["@types/prettier", "npm:2.4.2"],
             ["@types/react", "npm:17.0.34"],
             ["@types/testing-library__jest-dom", "npm:5.14.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:5.3.1"],
