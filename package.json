@@ -33,7 +33,7 @@
     "@testing-library/jest-dom": "5.16.1",
     "@testing-library/react": "12.1.2",
     "@testing-library/react-hooks": "7.0.2",
-    "@types/babel__core": "7.1.16",
+    "@types/babel__core": "7.1.17",
     "@types/eslint": "7.29.0",
     "@types/jest": "27.0.3",
     "@types/mdx-js__react": "1.5.5",
