@@ -1811,13 +1811,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@headlessui/react@npm:1.4.2":
-  version: 1.4.2
-  resolution: "@headlessui/react@npm:1.4.2"
+"@headlessui/react@npm:1.4.3":
+  version: 1.4.3
+  resolution: "@headlessui/react@npm:1.4.3"
   peerDependencies:
     react: ^16 || ^17 || ^18
     react-dom: ^16 || ^17 || ^18
-  checksum: 28c36204430365190c05cbd48235f8239897360c8d55189583c03868fe640b171051238a8672a501b441de79281bb08285966105bfeb4534ca0e612382dcd41f
+  checksum: 0c55bba6dc09a81576ec7d41320e3beb57b3f4576637ac4aad6048af851d5fe5434fd0d10dfb5c7b2db16eca6ded5eb3368822ddb87ff4dcb99fc3592ef63b0a
   languageName: node
   linkType: hard
 
@@ -17056,7 +17056,7 @@ typescript@4.4.4:
   resolution: "webdev-template@workspace:."
   dependencies:
     "@babel/core": 7.16.7
-    "@headlessui/react": 1.4.2
+    "@headlessui/react": 1.4.3
     "@jest/types": 27.4.2
     "@mdx-js/react": 1.6.22
     "@next/eslint-plugin-next": 12.0.8
