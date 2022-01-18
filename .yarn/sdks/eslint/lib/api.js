@@ -17,5 +17,4 @@ if (existsSync(absPnpApiPath)) {
 }
 
 // Defer to the real eslint/lib/api.js your application uses
-// https://github.com/yarnpkg/berry/issues/3578
-module.exports = absRequire(`eslint`);
+module.exports = absRequire(`eslint/lib/api.js`);
