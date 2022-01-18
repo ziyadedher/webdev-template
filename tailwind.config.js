@@ -3,7 +3,7 @@
 
 module.exports = {
   mode: "jit",
-  purge: [
+  content: [
     "./src/**/*.{ts,tsx}",
     "./stories/**/*.{ts,tsx}",
     "./tests/**/*.{ts,tsx}",
