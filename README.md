@@ -66,7 +66,7 @@ This WebDev template is fundementally based on Next.js (w/ React), that's what b
 #### Application Development
 
 - [TailwindCSS](https://tailwindcss.com/) — utility-first CSS framework. Lots of great composable classes. You probably won't need a single line of custom CSS when using TailwindCSS.
-- [Headless UI](https://headlessui.dev) — unstyled basic UI components, built to integrate with TailwindCSS.
+- [Headless UI](https://headlessui.dev) — unstyled basic UI components, built to integrate with TailwindCSS.
 
 #### Application Framework
 
@@ -129,7 +129,7 @@ All right nerds, buckle up. In this section we're going to talk about every sing
 #### Next.js and Friends
 
 - [next.config.js](next.config.js) — configuration file for Next.js. [More info](https://nextjs.org/docs/api-reference/next.config.js/introduction).
-- [next-env.d.ts](next-env.d.ts) — ensures type definitions for Next.js are picked up by the TypeScript compiler. [More info](https://nextjs.org/docs/basic-features/typescript).
+- [next-env.d.ts](next-env.d.ts) — ensures type definitions for Next.js are picked up by the TypeScript compiler. [More info](https://nextjs.org/docs/basic-features/typescript).
 - [src/](src/) — folder, application source code! Includes Next.js pages directory. [More info](https://nextjs.org/docs/advanced-features/src-directory).
 
 #### TailwindCSS and Friends
@@ -147,6 +147,7 @@ All right nerds, buckle up. In this section we're going to talk about every sing
 
 - [jest.config.ts](jest.config.ts) — Jest configuration file. [More info](https://jestjs.io/docs/configuration).
 - [.jest/tsconfig.json](.jest/tsconfig.json) — Jest doesn't play very nicely with TypeScript, this helps it work. [More info](https://github.com/vercel/next.js/issues/8663).
+- [.jest/setup_environment.ts](.jest/setup_environment.ts) — This script gets executed before all Jest test runs. It is referenced by the [Jest configuration file](jest.config.ts).
 - [tests/](tests/) — folder, contains all tests! [More info](https://jestjs.io/docs/getting-started).
 
 #### ESLint and Prettier
