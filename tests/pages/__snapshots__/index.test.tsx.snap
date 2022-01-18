@@ -25,6 +25,7 @@ Object {
               class="text-blue-500 hover:text-blue-700"
             >
               <a
+                class="group"
                 href="https://twitter.com/ziyadedher"
                 rel="noreferrer"
                 target="_blank"
@@ -43,6 +44,7 @@ Object {
               class="text-blue-500 hover:text-blue-700"
             >
               <a
+                class="group"
                 href="https://github.com/ziyadedher/webdev-template"
                 rel="noreferrer"
                 target="_blank"
@@ -77,6 +79,7 @@ Object {
             class="text-blue-500 hover:text-blue-700"
           >
             <a
+              class="group"
               href="https://twitter.com/ziyadedher"
               rel="noreferrer"
               target="_blank"
@@ -95,6 +98,7 @@ Object {
             class="text-blue-500 hover:text-blue-700"
           >
             <a
+              class="group"
               href="https://github.com/ziyadedher/webdev-template"
               rel="noreferrer"
               target="_blank"
