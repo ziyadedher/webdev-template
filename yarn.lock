@@ -2151,7 +2151,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:12.0.8, @next/env@npm:^12.0.8":
+"@next/env@npm:12.0.8":
   version: 12.0.8
   resolution: "@next/env@npm:12.0.8"
   checksum: 2ef94e2a248ea39d770f3a7aaae629bdeb46c8e694a01353888c146459d2cffb81394240071faca13cf6c155a404e5110517bb5aa654dcfda3d77b907db33bcf
@@ -16732,7 +16732,7 @@ __metadata:
     "@headlessui/react": 1.4.3
     "@jest/types": 27.4.2
     "@mdx-js/react": 1.6.22
-    "@next/env": ^12.0.8
+    "@next/env": 12.0.8
     "@next/eslint-plugin-next": 12.0.8
     "@storybook/addon-actions": 6.4.13
     "@storybook/addon-docs": 6.4.13
