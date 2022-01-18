@@ -6,60 +6,65 @@
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
 
-import Link from "../../src/logic/link";
-
-const EXAMPLE_LINK = "https://example.org/";
-const EXAMPLE_TEXT = "Hello, world!";
+import Anchor from "../../src/logic/anchor";
 
 /**
  * Generally, we would test user-visible functionality using React Testing Library.
  * In this case we can't do that since JSDOM doesn't support navigation.
  * https://github.com/jsdom/jsdom/issues/2112
  */
-describe("link", () => {
+describe("anchor", () => {
   test("default render matches snapshot", () => {
-    const tree = render(<Link href={EXAMPLE_LINK}>{EXAMPLE_TEXT}</Link>);
-    expect(tree).toMatchSnapshot();
+    const result = render(
+      <Anchor href="https://example.org/" label="example">
+        Hello, world!
+      </Anchor>
+    );
+    expect(result).toMatchSnapshot();
   });
 
-  describe("href", () => {
-    test("should be reflected in anchor tag", async () => {
-      const tree = render(<Link href={EXAMPLE_LINK} />);
-      const anchorElement = (await tree.findByRole(
-        "link"
-      )) as HTMLAnchorElement;
-      expect(anchorElement.href).toBe(EXAMPLE_LINK);
-    });
+  test("should render anchor tag", () => {
+    const result = render(<Anchor href="https://example.org/" />);
+    expect(result.getByRole("link")).toBeInTheDocument();
+  });
+
+  test("href should be reflected in anchor tag", () => {
+    const result = render(<Anchor href="https://example.org/" />);
+    expect(result.getByRole("link")).toHaveAttribute(
+      "href",
+      "https://example.org/"
+    );
+  });
+
+  test("label should be reflected in anchor tag", () => {
+    const result = render(
+      <Anchor href="https://example.org/" label="example" />
+    );
+    expect(result.getByRole("link")).toHaveAttribute("aria-label", "example");
   });
 
   describe("opening in new tab", () => {
-    test("not should open in new tab means no target", async () => {
-      const tree = render(
-        <Link href={EXAMPLE_LINK} shouldOpenInNewPage={false} />
+    test("not should open in new tab means no target", () => {
+      const result = render(
+        <Anchor href="https://example.org/" shouldOpenInNewPage={false} />
       );
-      const anchorElement = (await tree.findByRole(
-        "link"
-      )) as HTMLAnchorElement;
-      expect(anchorElement.target).toBe("");
+      expect(result.getByRole("link")).not.toHaveAttribute("target");
     });
 
-    test("should open in new tab means target and rel", async () => {
-      const tree = render(<Link href={EXAMPLE_LINK} shouldOpenInNewPage />);
-      const anchorElement = (await tree.findByRole(
-        "link"
-      )) as HTMLAnchorElement;
-      expect(anchorElement.target).toBe("_blank");
-      expect(anchorElement.rel).toBe("noreferrer");
+    test("should open in new tab means target and rel", () => {
+      const result = render(
+        <Anchor href="https://example.org/" shouldOpenInNewPage />
+      );
+      const anchorElement = result.getByRole("link");
+      expect(anchorElement).toHaveAttribute("target", "_blank");
+      expect(anchorElement).toHaveAttribute("rel", "noreferrer");
     });
   });
 
   describe("children", () => {
-    test("should be forwarded to anchor tag", async () => {
-      const tree = render(<Link href={EXAMPLE_LINK}>{EXAMPLE_TEXT}</Link>);
-      const paragraphElement = (await tree.findByText(
-        EXAMPLE_TEXT
-      )) as HTMLParagraphElement;
-      expect(paragraphElement).toBeInTheDocument();
+    test("should be forwarded to anchor tag", () => {
+      const result = render(<Anchor href="https://example.org/">test</Anchor>);
+      expect(result.getByText("test")).toBeInTheDocument();
     });
   });
 });

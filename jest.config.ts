@@ -11,6 +11,8 @@ const CONFIG: Config.InitialOptions = {
   coverageProvider: "v8",
   // CoverageThreshold: undefined,
 
+  setupFiles: ["<rootDir>/.jest/setup_environment.ts"],
+
   // NOTE: we need this to get around some weirdness with TSX + Jest
   globals: {
     "ts-jest": {
