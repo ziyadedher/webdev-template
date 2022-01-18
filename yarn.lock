@@ -11398,7 +11398,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:27.4.7":
+"jest@npm:^27.4.7":
   version: 27.4.7
   resolution: "jest@npm:27.4.7"
   dependencies:
@@ -17305,7 +17305,7 @@ __metadata:
     eslint-plugin-react: 7.28.0
     eslint-plugin-react-hooks: 4.3.0
     eslint-plugin-tailwindcss: 3.2.1
-    jest: 27.4.7
+    jest: ^27.4.7
     next: 12.0.4
     node-notifier: 10.0.0
     postcss: 8.4.5
