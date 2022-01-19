@@ -1,5 +1,5 @@
 {
-  "name": "webdev-template",
+  "name": "dao-interface",
   "private": true,
   "packageManager": "yarn@3.2.0-rc.11",
   "scripts": {

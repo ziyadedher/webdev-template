@@ -8,7 +8,6 @@ module.exports = {
     "./stories/**/*.{ts,tsx}",
     "./tests/**/*.{ts,tsx}",
   ],
-  darkMode: false,
   theme: {
     extend: {},
   },
