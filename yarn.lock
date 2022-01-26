@@ -8350,14 +8350,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-tailwindcss@npm:3.3.4":
-  version: 3.3.4
-  resolution: "eslint-plugin-tailwindcss@npm:3.3.4"
+"eslint-plugin-tailwindcss@npm:3.3.5":
+  version: 3.3.5
+  resolution: "eslint-plugin-tailwindcss@npm:3.3.5"
   dependencies:
     fast-glob: ^3.2.5
     postcss: ^8.4.4
     tailwindcss: ^3.0.7
-  checksum: 2d555015909f128051f4d638e14d63ac4f95517f980a6ef65a44a45a25aa3a85fbbc681dbe9cb7e18264b292705c37587f346067115e69dcefd5e9bb3f23e228
+  checksum: 97636320b6c6bd1af4a81516d4a4a08bc8a4a45bffc5a563f010a220402f6f27587a5f027f2775ee405c5bca0a61da58c8a0b28ae5971736e6ea34c505f73ba1
   languageName: node
   linkType: hard
 
@@ -17426,7 +17426,7 @@ __metadata:
     eslint-plugin-node: 11.1.0
     eslint-plugin-react: 7.28.0
     eslint-plugin-react-hooks: 4.3.0
-    eslint-plugin-tailwindcss: 3.3.4
+    eslint-plugin-tailwindcss: 3.3.5
     jest: 27.4.7
     next: 12.0.4
     node-notifier: 10.0.0
