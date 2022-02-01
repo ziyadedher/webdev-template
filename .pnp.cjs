@@ -78,7 +78,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-tailwindcss", "npm:3.4.3"],\
             ["jest", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:27.4.7"],\
             ["next", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:12.0.10"],\
-            ["node-notifier", "npm:10.0.0"],\
+            ["node-notifier", "npm:10.0.1"],\
             ["postcss", "npm:8.4.6"],\
             ["prettier", "npm:2.5.1"],\
             ["react", "npm:17.0.2"],\
@@ -3478,7 +3478,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-validate", "npm:27.4.6"],\
             ["jest-watcher", "npm:27.4.6"],\
             ["micromatch", "npm:4.0.4"],\
-            ["node-notifier", "npm:10.0.0"],\
+            ["node-notifier", "npm:10.0.1"],\
             ["rimraf", "npm:3.0.2"],\
             ["slash", "npm:3.0.0"],\
             ["strip-ansi", "npm:6.0.1"]\
@@ -3563,7 +3563,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-resolve", "npm:27.4.6"],\
             ["jest-util", "npm:27.4.2"],\
             ["jest-worker", "npm:27.4.6"],\
-            ["node-notifier", "npm:10.0.0"],\
+            ["node-notifier", "npm:10.0.1"],\
             ["slash", "npm:3.0.0"],\
             ["source-map", "npm:0.6.1"],\
             ["string-length", "npm:4.0.2"],\
@@ -15058,7 +15058,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node-notifier", null],\
             ["import-local", "npm:3.1.0"],\
             ["jest-cli", "virtual:716624dd605ff59d41d2b66b74a023e0bf0070303bd9d015d5aebacf8eef8bd0531ae9877ef28567c956ef25010a73ba1ae24d710466a41873ff9c1b12302ce8#npm:27.4.7"],\
-            ["node-notifier", "npm:10.0.0"]\
+            ["node-notifier", "npm:10.0.1"]\
           ],\
           "packagePeers": [\
             "@types/node-notifier",\
@@ -15130,7 +15130,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-config", "virtual:d1fef2254050c8d3e24540d2a18400dfee45018c0e1e802bcf93f3d28f4df35dea1ec28c852d422bc2deece3ac28a7c24640e7868872f796c74b2b932c9c90c9#npm:27.4.7"],\
             ["jest-util", "npm:27.4.2"],\
             ["jest-validate", "npm:27.4.6"],\
-            ["node-notifier", "npm:10.0.0"],\
+            ["node-notifier", "npm:10.0.1"],\
             ["prompts", "npm:2.4.2"],\
             ["yargs", "npm:16.2.0"]\
           ],\
@@ -17061,10 +17061,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["node-notifier", [\
-        ["npm:10.0.0", {\
-          "packageLocation": "./.yarn/unplugged/node-notifier-npm-10.0.0-7261bb0981/node_modules/node-notifier/",\
+        ["npm:10.0.1", {\
+          "packageLocation": "./.yarn/unplugged/node-notifier-npm-10.0.1-7a3f9a97c4/node_modules/node-notifier/",\
           "packageDependencies": [\
-            ["node-notifier", "npm:10.0.0"],\
+            ["node-notifier", "npm:10.0.1"],\
             ["growly", "npm:1.3.0"],\
             ["is-wsl", "npm:2.2.0"],\
             ["semver", "npm:7.3.5"],\
@@ -22326,7 +22326,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-tailwindcss", "npm:3.4.3"],\
             ["jest", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:27.4.7"],\
             ["next", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:12.0.10"],\
-            ["node-notifier", "npm:10.0.0"],\
+            ["node-notifier", "npm:10.0.1"],\
             ["postcss", "npm:8.4.6"],\
             ["prettier", "npm:2.5.1"],\
             ["react", "npm:17.0.2"],\
