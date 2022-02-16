@@ -84,7 +84,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:17.0.2"],\
             ["source-map-support", "npm:0.5.21"],\
-            ["tailwindcss", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.22"],\
+            ["tailwindcss", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.23"],\
             ["ts-jest", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:27.1.3"],\
             ["ts-node", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.5.0"],\
             ["typescript", "patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=142761"]\
@@ -20820,10 +20820,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.22", {\
-          "packageLocation": "./.yarn/__virtual__/tailwindcss-virtual-9215e7f75f/0/cache/tailwindcss-npm-3.0.22-6d80457a4b-52ec8c4e63.zip/node_modules/tailwindcss/",\
+        ["npm:3.0.23", {\
+          "packageLocation": "./.yarn/cache/tailwindcss-npm-3.0.23-9f06667e4b-2e7fdd1156.zip/node_modules/tailwindcss/",\
           "packageDependencies": [\
-            ["tailwindcss", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.22"],\
+            ["tailwindcss", "npm:3.0.23"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.23", {\
+          "packageLocation": "./.yarn/__virtual__/tailwindcss-virtual-929e48e73b/0/cache/tailwindcss-npm-3.0.23-9f06667e4b-2e7fdd1156.zip/node_modules/tailwindcss/",\
+          "packageDependencies": [\
+            ["tailwindcss", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.23"],\
             ["@types/autoprefixer", null],\
             ["@types/postcss", null],\
             ["arg", "npm:5.0.1"],\
@@ -22350,7 +22357,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:17.0.2"],\
             ["source-map-support", "npm:0.5.21"],\
-            ["tailwindcss", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.22"],\
+            ["tailwindcss", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.23"],\
             ["ts-jest", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:27.1.3"],\
             ["ts-node", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.5.0"],\
             ["typescript", "patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=142761"]\
