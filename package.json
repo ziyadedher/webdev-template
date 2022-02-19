@@ -1,7 +1,7 @@
 {
   "name": "webdev-template",
   "private": true,
-  "packageManager": "yarn@3.2.0-rc.15",
+  "packageManager": "yarn@3.2.0-rc.16",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
