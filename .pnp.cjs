@@ -59,7 +59,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/testing-library__jest-dom", "npm:5.14.2"],\
             ["@typescript-eslint/eslint-plugin", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:5.11.0"],\
             ["@typescript-eslint/parser", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:5.11.0"],\
-            ["@yarnpkg/sdks", "npm:2.6.0-rc.8"],\
+            ["@yarnpkg/sdks", "npm:2.6.0"],\
             ["@ziyadedher/eslint-config", "npm:3.0.0"],\
             ["autoprefixer", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.2"],\
             ["babel-loader", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.3"],\
@@ -7731,23 +7731,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/core", [\
-        ["npm:3.2.0-rc.16", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-core-npm-3.2.0-rc.16-28221c17f9-d7dee6cc82.zip/node_modules/@yarnpkg/core/",\
+        ["npm:3.2.0", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-core-npm-3.2.0-a48f7cad0a-a56839f157.zip/node_modules/@yarnpkg/core/",\
           "packageDependencies": [\
-            ["@yarnpkg/core", "npm:3.2.0-rc.16"],\
+            ["@yarnpkg/core", "npm:3.2.0"],\
             ["@arcanis/slice-ansi", "npm:1.1.1"],\
             ["@types/semver", "npm:7.3.9"],\
             ["@types/treeify", "npm:1.0.0"],\
-            ["@yarnpkg/fslib", "npm:2.6.1-rc.11"],\
+            ["@yarnpkg/fslib", "npm:2.6.1"],\
             ["@yarnpkg/json-proxy", "npm:2.1.1"],\
-            ["@yarnpkg/libzip", "npm:2.2.3-rc.11"],\
-            ["@yarnpkg/parsers", "npm:2.5.0-rc.14"],\
-            ["@yarnpkg/pnp", "npm:3.1.1-rc.16"],\
-            ["@yarnpkg/shell", "npm:3.2.0-rc.14"],\
+            ["@yarnpkg/libzip", "npm:2.2.4"],\
+            ["@yarnpkg/parsers", "npm:2.5.0"],\
+            ["@yarnpkg/pnp", "npm:3.2.0"],\
+            ["@yarnpkg/shell", "npm:3.2.0"],\
             ["camelcase", "npm:5.3.1"],\
             ["chalk", "npm:3.0.0"],\
             ["ci-info", "npm:3.3.0"],\
-            ["clipanion", "virtual:9abd8d25eef69ac8f034d7c6abbaa7d897b16ab23610399157755bea92f8e7c311a1b1a0d69ac3d7bf88d2ee14474d505aeabb172e1a52bcb66bcab71acf1f8a#npm:3.2.0-rc.9"],\
+            ["clipanion", "virtual:aa6dbc485c96a4f23035a31f44481412ab7479eee841cf5f30d392dce33e0547ef7dbed86b365514f32c7fc4d2d00670c7483fbe76a30ee4eead454cfc70e090#npm:3.2.0-rc.9"],\
             ["cross-spawn", "npm:7.0.3"],\
             ["diff", "npm:4.0.2"],\
             ["globby", "npm:11.1.0"],\
@@ -7781,11 +7781,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.6.1-rc.11", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-fslib-npm-2.6.1-rc.11-134e828625-5c1171d765.zip/node_modules/@yarnpkg/fslib/",\
+        ["npm:2.6.1", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-fslib-npm-2.6.1-57faee1db2-e3bbd796a1.zip/node_modules/@yarnpkg/fslib/",\
           "packageDependencies": [\
-            ["@yarnpkg/fslib", "npm:2.6.1-rc.11"],\
-            ["@yarnpkg/libzip", "npm:2.2.3-rc.11"],\
+            ["@yarnpkg/fslib", "npm:2.6.1"],\
+            ["@yarnpkg/libzip", "npm:2.2.4"],\
             ["tslib", "npm:1.14.1"]\
           ],\
           "linkType": "HARD"\
@@ -7812,10 +7812,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.2.3-rc.11", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-libzip-npm-2.2.3-rc.11-e2b94b07f4-06def40508.zip/node_modules/@yarnpkg/libzip/",\
+        ["npm:2.2.4", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-libzip-npm-2.2.4-b8050186bc-974a286d4e.zip/node_modules/@yarnpkg/libzip/",\
           "packageDependencies": [\
-            ["@yarnpkg/libzip", "npm:2.2.3-rc.11"],\
+            ["@yarnpkg/libzip", "npm:2.2.4"],\
             ["@types/emscripten", "npm:1.39.6"],\
             ["tslib", "npm:1.14.1"]\
           ],\
@@ -7823,10 +7823,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/parsers", [\
-        ["npm:2.5.0-rc.14", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-parsers-npm-2.5.0-rc.14-c63851712a-9d9537c903.zip/node_modules/@yarnpkg/parsers/",\
+        ["npm:2.5.0", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-parsers-npm-2.5.0-80778f9c50-02678b7b91.zip/node_modules/@yarnpkg/parsers/",\
           "packageDependencies": [\
-            ["@yarnpkg/parsers", "npm:2.5.0-rc.14"],\
+            ["@yarnpkg/parsers", "npm:2.5.0"],\
             ["js-yaml", "npm:3.14.1"],\
             ["tslib", "npm:1.14.1"]\
           ],\
@@ -7834,26 +7834,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/pnp", [\
-        ["npm:3.1.1-rc.16", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-pnp-npm-3.1.1-rc.16-2dbf810bdb-f15075bab1.zip/node_modules/@yarnpkg/pnp/",\
+        ["npm:3.2.0", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-pnp-npm-3.2.0-aa2b642c19-5b99f89e77.zip/node_modules/@yarnpkg/pnp/",\
           "packageDependencies": [\
-            ["@yarnpkg/pnp", "npm:3.1.1-rc.16"],\
+            ["@yarnpkg/pnp", "npm:3.2.0"],\
             ["@types/node", "npm:13.13.52"],\
-            ["@yarnpkg/fslib", "npm:2.6.1-rc.11"]\
+            ["@yarnpkg/fslib", "npm:2.6.1"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@yarnpkg/sdks", [\
-        ["npm:2.6.0-rc.8", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-sdks-npm-2.6.0-rc.8-02dddccb49-ca89bef9b1.zip/node_modules/@yarnpkg/sdks/",\
+        ["npm:2.6.0", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-sdks-npm-2.6.0-22968d3ffa-80d3c89311.zip/node_modules/@yarnpkg/sdks/",\
           "packageDependencies": [\
-            ["@yarnpkg/sdks", "npm:2.6.0-rc.8"],\
-            ["@yarnpkg/core", "npm:3.2.0-rc.16"],\
-            ["@yarnpkg/fslib", "npm:2.6.1-rc.11"],\
-            ["@yarnpkg/parsers", "npm:2.5.0-rc.14"],\
+            ["@yarnpkg/sdks", "npm:2.6.0"],\
+            ["@yarnpkg/core", "npm:3.2.0"],\
+            ["@yarnpkg/fslib", "npm:2.6.1"],\
+            ["@yarnpkg/parsers", "npm:2.5.0"],\
             ["chalk", "npm:3.0.0"],\
-            ["clipanion", "virtual:9abd8d25eef69ac8f034d7c6abbaa7d897b16ab23610399157755bea92f8e7c311a1b1a0d69ac3d7bf88d2ee14474d505aeabb172e1a52bcb66bcab71acf1f8a#npm:3.2.0-rc.9"],\
+            ["clipanion", "virtual:aa6dbc485c96a4f23035a31f44481412ab7479eee841cf5f30d392dce33e0547ef7dbed86b365514f32c7fc4d2d00670c7483fbe76a30ee4eead454cfc70e090#npm:3.2.0-rc.9"],\
             ["comment-json", "npm:2.4.2"],\
             ["lodash", "npm:4.17.21"],\
             ["tslib", "npm:1.14.1"]\
@@ -7862,14 +7862,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/shell", [\
-        ["npm:3.2.0-rc.14", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-shell-npm-3.2.0-rc.14-9abd8d25ee-32e86060ce.zip/node_modules/@yarnpkg/shell/",\
+        ["npm:3.2.0", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-shell-npm-3.2.0-aa6dbc485c-c1ec5f08a3.zip/node_modules/@yarnpkg/shell/",\
           "packageDependencies": [\
-            ["@yarnpkg/shell", "npm:3.2.0-rc.14"],\
-            ["@yarnpkg/fslib", "npm:2.6.1-rc.11"],\
-            ["@yarnpkg/parsers", "npm:2.5.0-rc.14"],\
+            ["@yarnpkg/shell", "npm:3.2.0"],\
+            ["@yarnpkg/fslib", "npm:2.6.1"],\
+            ["@yarnpkg/parsers", "npm:2.5.0"],\
             ["chalk", "npm:3.0.0"],\
-            ["clipanion", "virtual:9abd8d25eef69ac8f034d7c6abbaa7d897b16ab23610399157755bea92f8e7c311a1b1a0d69ac3d7bf88d2ee14474d505aeabb172e1a52bcb66bcab71acf1f8a#npm:3.2.0-rc.9"],\
+            ["clipanion", "virtual:aa6dbc485c96a4f23035a31f44481412ab7479eee841cf5f30d392dce33e0547ef7dbed86b365514f32c7fc4d2d00670c7483fbe76a30ee4eead454cfc70e090#npm:3.2.0-rc.9"],\
             ["cross-spawn", "npm:7.0.3"],\
             ["fast-glob", "npm:3.2.11"],\
             ["micromatch", "npm:4.0.4"],\
@@ -9973,10 +9973,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:9abd8d25eef69ac8f034d7c6abbaa7d897b16ab23610399157755bea92f8e7c311a1b1a0d69ac3d7bf88d2ee14474d505aeabb172e1a52bcb66bcab71acf1f8a#npm:3.2.0-rc.9", {\
-          "packageLocation": "./.yarn/__virtual__/clipanion-virtual-c14eee5720/0/cache/clipanion-npm-3.2.0-rc.9-6013c3b832-00690c6112.zip/node_modules/clipanion/",\
+        ["virtual:aa6dbc485c96a4f23035a31f44481412ab7479eee841cf5f30d392dce33e0547ef7dbed86b365514f32c7fc4d2d00670c7483fbe76a30ee4eead454cfc70e090#npm:3.2.0-rc.9", {\
+          "packageLocation": "./.yarn/__virtual__/clipanion-virtual-fc7e038a84/0/cache/clipanion-npm-3.2.0-rc.9-6013c3b832-00690c6112.zip/node_modules/clipanion/",\
           "packageDependencies": [\
-            ["clipanion", "virtual:9abd8d25eef69ac8f034d7c6abbaa7d897b16ab23610399157755bea92f8e7c311a1b1a0d69ac3d7bf88d2ee14474d505aeabb172e1a52bcb66bcab71acf1f8a#npm:3.2.0-rc.9"],\
+            ["clipanion", "virtual:aa6dbc485c96a4f23035a31f44481412ab7479eee841cf5f30d392dce33e0547ef7dbed86b365514f32c7fc4d2d00670c7483fbe76a30ee4eead454cfc70e090#npm:3.2.0-rc.9"],\
             ["@types/typanion", null],\
             ["typanion", "npm:3.7.1"]\
           ],\
@@ -22329,7 +22329,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/testing-library__jest-dom", "npm:5.14.2"],\
             ["@typescript-eslint/eslint-plugin", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:5.11.0"],\
             ["@typescript-eslint/parser", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:5.11.0"],\
-            ["@yarnpkg/sdks", "npm:2.6.0-rc.8"],\
+            ["@yarnpkg/sdks", "npm:2.6.0"],\
             ["@ziyadedher/eslint-config", "npm:3.0.0"],\
             ["autoprefixer", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.2"],\
             ["babel-loader", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.3"],\
@@ -24628,11 +24628,7 @@ class ZipFS extends BasePortableFakeFS {
     const entry = this.fds.get(fd);
     if (typeof entry === `undefined`)
       throw EBADF(`read`);
-    let realPosition;
-    if (position === -1 || position === null)
-      realPosition = entry.cursor;
-    else
-      realPosition = position;
+    const realPosition = position === -1 || position === null ? entry.cursor : position;
     const source = this.readFileSync(entry.p);
     source.copy(buffer, offset, realPosition, realPosition + length);
     const bytesRead = Math.max(0, Math.min(source.length - realPosition, length));
