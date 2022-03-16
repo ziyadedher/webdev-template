@@ -79,7 +79,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:27.5.1"],\
             ["next", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:12.1.0"],\
             ["node-notifier", "npm:10.0.1"],\
-            ["postcss", "npm:8.4.11"],\
+            ["postcss", "npm:8.4.12"],\
             ["prettier", "npm:2.6.0"],\
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:17.0.2"],\
@@ -8738,7 +8738,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fraction.js", "npm:4.2.0"],\
             ["normalize-range", "npm:0.1.2"],\
             ["picocolors", "npm:1.0.0"],\
-            ["postcss", "npm:8.4.11"],\
+            ["postcss", "npm:8.4.12"],\
             ["postcss-value-parser", "npm:4.2.0"]\
           ],\
           "packagePeers": [\
@@ -18171,10 +18171,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:8.4.11", {\
-          "packageLocation": "./.yarn/cache/postcss-npm-8.4.11-751653f744-4943e0d647.zip/node_modules/postcss/",\
+        ["npm:8.4.12", {\
+          "packageLocation": "./.yarn/cache/postcss-npm-8.4.12-e941d78a98-248e3d0f9b.zip/node_modules/postcss/",\
           "packageDependencies": [\
-            ["postcss", "npm:8.4.11"],\
+            ["postcss", "npm:8.4.12"],\
             ["nanoid", "npm:3.3.1"],\
             ["picocolors", "npm:1.0.0"],\
             ["source-map-js", "npm:1.0.2"]\
@@ -18240,7 +18240,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss-js", "virtual:929e48e73b84b6660f920d43b16095cca53e9c43e712722782c4999924cbd7a6c74c66066da7abc965f036223f0d4a83aca2c0882dddae1288a69b1483326cce#npm:4.0.0"],\
             ["@types/postcss", null],\
             ["camelcase-css", "npm:2.0.1"],\
-            ["postcss", "npm:8.4.11"]\
+            ["postcss", "npm:8.4.12"]\
           ],\
           "packagePeers": [\
             "@types/postcss",\
@@ -18398,7 +18398,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["postcss-nested", "virtual:929e48e73b84b6660f920d43b16095cca53e9c43e712722782c4999924cbd7a6c74c66066da7abc965f036223f0d4a83aca2c0882dddae1288a69b1483326cce#npm:5.0.6"],\
             ["@types/postcss", null],\
-            ["postcss", "npm:8.4.11"],\
+            ["postcss", "npm:8.4.12"],\
             ["postcss-selector-parser", "npm:6.0.9"]\
           ],\
           "packagePeers": [\
@@ -21017,7 +21017,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-glob", "npm:4.0.3"],\
             ["normalize-path", "npm:3.0.0"],\
             ["object-hash", "npm:2.2.0"],\
-            ["postcss", "npm:8.4.11"],\
+            ["postcss", "npm:8.4.12"],\
             ["postcss-js", "virtual:929e48e73b84b6660f920d43b16095cca53e9c43e712722782c4999924cbd7a6c74c66066da7abc965f036223f0d4a83aca2c0882dddae1288a69b1483326cce#npm:4.0.0"],\
             ["postcss-load-config", "virtual:06327733b71d8389f621a660c2dcd200d550a1a6804aed9def9ddfc592a7069c7b0ed4a7855ebf9e5d9a3a1635e13d4e2f3be18bfaffd7b1042513ea31440856#npm:3.1.3"],\
             ["postcss-nested", "virtual:929e48e73b84b6660f920d43b16095cca53e9c43e712722782c4999924cbd7a6c74c66066da7abc965f036223f0d4a83aca2c0882dddae1288a69b1483326cce#npm:5.0.6"],\
@@ -22511,7 +22511,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:27.5.1"],\
             ["next", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:12.1.0"],\
             ["node-notifier", "npm:10.0.1"],\
-            ["postcss", "npm:8.4.11"],\
+            ["postcss", "npm:8.4.12"],\
             ["prettier", "npm:2.6.0"],\
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:17.0.2"],\
