@@ -62,7 +62,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/sdks", "npm:2.6.0"],\
             ["@ziyadedher/eslint-config", "npm:3.0.0"],\
             ["autoprefixer", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.4"],\
-            ["babel-loader", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.3"],\
+            ["babel-loader", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.4"],\
             ["chromatic", "npm:6.5.3"],\
             ["codecov", "npm:3.8.3"],\
             ["eslint", "npm:8.11.0"],\
@@ -4488,7 +4488,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/storybook__vue", null],\
             ["@types/storybook__web-components", null],\
             ["@types/webpack", null],\
-            ["babel-loader", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.3"],\
+            ["babel-loader", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.4"],\
             ["core-js", "npm:3.21.1"],\
             ["lit-html", null],\
             ["react", "npm:17.0.2"],\
@@ -8698,6 +8698,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
+        ["npm:8.2.4", {\
+          "packageLocation": "./.yarn/cache/babel-loader-npm-8.2.4-e2dfcd123f-4968251fc4.zip/node_modules/babel-loader/",\
+          "packageDependencies": [\
+            ["babel-loader", "npm:8.2.4"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
         ["virtual:544aa3e831dfca33ba0aa1621fc5bf5e84269925953d3fe1f0f5f355e514cb282dde08f6d165eebfee9a2e87d0b4f49673bcc19e1f8860ca7129423bddefa1a6#npm:8.2.3", {\
           "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-cfe6080888/0/cache/babel-loader-npm-8.2.3-855681b984-78e1e1a919.zip/node_modules/babel-loader/",\
           "packageDependencies": [\
@@ -8740,15 +8747,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.3", {\
-          "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-dc39ab9f07/0/cache/babel-loader-npm-8.2.3-855681b984-78e1e1a919.zip/node_modules/babel-loader/",\
+        ["virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.4", {\
+          "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-f8ee7b403a/0/cache/babel-loader-npm-8.2.4-e2dfcd123f-4968251fc4.zip/node_modules/babel-loader/",\
           "packageDependencies": [\
-            ["babel-loader", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.3"],\
+            ["babel-loader", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.4"],\
             ["@babel/core", "npm:7.17.8"],\
             ["@types/babel__core", "npm:7.1.19"],\
             ["@types/webpack", null],\
             ["find-cache-dir", "npm:3.3.2"],\
-            ["loader-utils", "npm:1.4.0"],\
+            ["loader-utils", "npm:2.0.2"],\
             ["make-dir", "npm:3.1.0"],\
             ["schema-utils", "npm:2.7.1"],\
             ["webpack", null]\
@@ -22351,7 +22358,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/sdks", "npm:2.6.0"],\
             ["@ziyadedher/eslint-config", "npm:3.0.0"],\
             ["autoprefixer", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.4"],\
-            ["babel-loader", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.3"],\
+            ["babel-loader", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.4"],\
             ["chromatic", "npm:6.5.3"],\
             ["codecov", "npm:3.8.3"],\
             ["eslint", "npm:8.11.0"],\
