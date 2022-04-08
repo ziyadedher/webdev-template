@@ -63,7 +63,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@ziyadedher/eslint-config", "npm:3.0.0"],\
             ["autoprefixer", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.4"],\
             ["babel-loader", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.4"],\
-            ["chromatic", "npm:6.5.3"],\
+            ["chromatic", "npm:6.5.4"],\
             ["codecov", "npm:3.8.3"],\
             ["eslint", "npm:8.12.0"],\
             ["eslint-import-resolver-node", "npm:0.3.6"],\
@@ -10020,10 +10020,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["chromatic", [\
-        ["npm:6.5.3", {\
-          "packageLocation": "./.yarn/cache/chromatic-npm-6.5.3-df64ee3cba-42b824ec1e.zip/node_modules/chromatic/",\
+        ["npm:6.5.4", {\
+          "packageLocation": "./.yarn/cache/chromatic-npm-6.5.4-34c15906e0-79e036b305.zip/node_modules/chromatic/",\
           "packageDependencies": [\
-            ["chromatic", "npm:6.5.3"]\
+            ["chromatic", "npm:6.5.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -22502,7 +22502,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@ziyadedher/eslint-config", "npm:3.0.0"],\
             ["autoprefixer", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.4"],\
             ["babel-loader", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.4"],\
-            ["chromatic", "npm:6.5.3"],\
+            ["chromatic", "npm:6.5.4"],\
             ["codecov", "npm:3.8.3"],\
             ["eslint", "npm:8.12.0"],\
             ["eslint-import-resolver-node", "npm:0.3.6"],\
