@@ -84,7 +84,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.0.0"],\
             ["react-dom", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:18.0.0"],\
             ["source-map-support", "npm:0.5.21"],\
-            ["tailwindcss", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.23"],\
+            ["tailwindcss", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.24"],\
             ["ts-jest", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:27.1.4"],\
             ["ts-node", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.7.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
@@ -17527,6 +17527,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object-hash", "npm:2.2.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/object-hash-npm-3.0.0-d941e0cabe-80b4904bb3.zip/node_modules/object-hash/",\
+          "packageDependencies": [\
+            ["object-hash", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["object-inspect", [\
@@ -21054,26 +21061,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.23", {\
-          "packageLocation": "./.yarn/__virtual__/tailwindcss-virtual-929e48e73b/0/cache/tailwindcss-npm-3.0.23-9f06667e4b-2e7fdd1156.zip/node_modules/tailwindcss/",\
+        ["npm:3.0.24", {\
+          "packageLocation": "./.yarn/cache/tailwindcss-npm-3.0.24-76d1231da5-52a21192b7.zip/node_modules/tailwindcss/",\
           "packageDependencies": [\
-            ["tailwindcss", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.23"],\
-            ["@types/autoprefixer", null],\
+            ["tailwindcss", "npm:3.0.24"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.24", {\
+          "packageLocation": "./.yarn/__virtual__/tailwindcss-virtual-8cf0b2bd39/0/cache/tailwindcss-npm-3.0.24-76d1231da5-52a21192b7.zip/node_modules/tailwindcss/",\
+          "packageDependencies": [\
+            ["tailwindcss", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.24"],\
             ["@types/postcss", null],\
             ["arg", "npm:5.0.1"],\
-            ["autoprefixer", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.4"],\
-            ["chalk", "npm:4.1.2"],\
             ["chokidar", "npm:3.5.3"],\
             ["color-name", "npm:1.1.4"],\
-            ["cosmiconfig", "npm:7.0.1"],\
             ["detective", "npm:5.2.0"],\
             ["didyoumean", "npm:1.2.2"],\
             ["dlv", "npm:1.1.3"],\
             ["fast-glob", "npm:3.2.11"],\
             ["glob-parent", "npm:6.0.2"],\
             ["is-glob", "npm:4.0.3"],\
+            ["lilconfig", "npm:2.0.5"],\
             ["normalize-path", "npm:3.0.0"],\
-            ["object-hash", "npm:2.2.0"],\
+            ["object-hash", "npm:3.0.0"],\
+            ["picocolors", "npm:1.0.0"],\
             ["postcss", "npm:8.4.12"],\
             ["postcss-js", "virtual:06327733b71d8389f621a660c2dcd200d550a1a6804aed9def9ddfc592a7069c7b0ed4a7855ebf9e5d9a3a1635e13d4e2f3be18bfaffd7b1042513ea31440856#npm:4.0.0"],\
             ["postcss-load-config", "virtual:06327733b71d8389f621a660c2dcd200d550a1a6804aed9def9ddfc592a7069c7b0ed4a7855ebf9e5d9a3a1635e13d4e2f3be18bfaffd7b1042513ea31440856#npm:3.1.4"],\
@@ -21084,9 +21096,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["resolve", "patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"]\
           ],\
           "packagePeers": [\
-            "@types/autoprefixer",\
             "@types/postcss",\
-            "autoprefixer",\
             "postcss"\
           ],\
           "linkType": "HARD"\
@@ -22550,7 +22560,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.0.0"],\
             ["react-dom", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:18.0.0"],\
             ["source-map-support", "npm:0.5.21"],\
-            ["tailwindcss", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.23"],\
+            ["tailwindcss", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:3.0.24"],\
             ["ts-jest", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:27.1.4"],\
             ["ts-node", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.7.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
