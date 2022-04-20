@@ -50,7 +50,7 @@
     "@yarnpkg/sdks": "2.6.0",
     "@ziyadedher/eslint-config": "3.0.0",
     "autoprefixer": "10.4.4",
-    "babel-loader": "8.2.4",
+    "babel-loader": "8.2.5",
     "chromatic": "6.5.4",
     "codecov": "3.8.3",
     "eslint": "8.13.0",
