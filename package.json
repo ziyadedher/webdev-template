@@ -13,7 +13,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@headlessui/react": "1.5.0",
+    "@headlessui/react": "1.6.0",
     "next": "12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0",
