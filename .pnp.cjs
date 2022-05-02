@@ -61,7 +61,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:5.21.0"],\
             ["@yarnpkg/sdks", "npm:2.6.0"],\
             ["@ziyadedher/eslint-config", "npm:3.0.0"],\
-            ["autoprefixer", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.5"],\
+            ["autoprefixer", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.6"],\
             ["babel-loader", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.5"],\
             ["chromatic", "npm:6.5.4"],\
             ["codecov", "npm:3.8.3"],\
@@ -8870,10 +8870,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["autoprefixer", [\
-        ["npm:10.4.5", {\
-          "packageLocation": "./.yarn/cache/autoprefixer-npm-10.4.5-0e8773bbfe-6c638d8f51.zip/node_modules/autoprefixer/",\
+        ["npm:10.4.6", {\
+          "packageLocation": "./.yarn/cache/autoprefixer-npm-10.4.6-87e0921697-4e8fbe94e8.zip/node_modules/autoprefixer/",\
           "packageDependencies": [\
-            ["autoprefixer", "npm:10.4.5"]\
+            ["autoprefixer", "npm:10.4.6"]\
           ],\
           "linkType": "SOFT"\
         }],\
@@ -8891,13 +8891,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.5", {\
-          "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-6f843e0f1d/0/cache/autoprefixer-npm-10.4.5-0e8773bbfe-6c638d8f51.zip/node_modules/autoprefixer/",\
+        ["virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.6", {\
+          "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-3de6a3c17e/0/cache/autoprefixer-npm-10.4.6-87e0921697-4e8fbe94e8.zip/node_modules/autoprefixer/",\
           "packageDependencies": [\
-            ["autoprefixer", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.5"],\
+            ["autoprefixer", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.6"],\
             ["@types/postcss", null],\
-            ["browserslist", "npm:4.20.2"],\
-            ["caniuse-lite", "npm:1.0.30001332"],\
+            ["browserslist", "npm:4.20.3"],\
+            ["caniuse-lite", "npm:1.0.30001334"],\
             ["fraction.js", "npm:4.2.0"],\
             ["normalize-range", "npm:0.1.2"],\
             ["picocolors", "npm:1.0.0"],\
@@ -9691,6 +9691,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["picocolors", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:4.20.3", {\
+          "packageLocation": "./.yarn/cache/browserslist-npm-4.20.3-d7ff9d00b4-1e4b719ac2.zip/node_modules/browserslist/",\
+          "packageDependencies": [\
+            ["browserslist", "npm:4.20.3"],\
+            ["caniuse-lite", "npm:1.0.30001332"],\
+            ["electron-to-chromium", "npm:1.4.129"],\
+            ["escalade", "npm:3.1.1"],\
+            ["node-releases", "npm:2.0.4"],\
+            ["picocolors", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["bs-logger", [\
@@ -9983,6 +9995,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001332-48584c6396-e54182ea42.zip/node_modules/caniuse-lite/",\
           "packageDependencies": [\
             ["caniuse-lite", "npm:1.0.30001332"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:1.0.30001334", {\
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001334-4dc095c535-1a1c783942.zip/node_modules/caniuse-lite/",\
+          "packageDependencies": [\
+            ["caniuse-lite", "npm:1.0.30001334"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -11590,6 +11609,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.4.103-5c9e680d2a-ae5783cafb.zip/node_modules/electron-to-chromium/",\
           "packageDependencies": [\
             ["electron-to-chromium", "npm:1.4.103"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:1.4.129", {\
+          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.4.129-b443681cdd-bc83599d5b.zip/node_modules/electron-to-chromium/",\
+          "packageDependencies": [\
+            ["electron-to-chromium", "npm:1.4.129"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -17473,6 +17499,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["node-releases", "npm:2.0.2"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:2.0.4", {\
+          "packageLocation": "./.yarn/cache/node-releases-npm-2.0.4-7d25d174cd-b32d6c2032.zip/node_modules/node-releases/",\
+          "packageDependencies": [\
+            ["node-releases", "npm:2.0.4"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["node.extend", [\
@@ -22709,7 +22742,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:5.21.0"],\
             ["@yarnpkg/sdks", "npm:2.6.0"],\
             ["@ziyadedher/eslint-config", "npm:3.0.0"],\
-            ["autoprefixer", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.5"],\
+            ["autoprefixer", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.4.6"],\
             ["babel-loader", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:8.2.5"],\
             ["chromatic", "npm:6.5.4"],\
             ["codecov", "npm:3.8.3"],\
