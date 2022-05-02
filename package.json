@@ -49,7 +49,7 @@
     "@typescript-eslint/parser": "5.21.0",
     "@yarnpkg/sdks": "2.6.0",
     "@ziyadedher/eslint-config": "3.0.0",
-    "autoprefixer": "10.4.5",
+    "autoprefixer": "10.4.6",
     "babel-loader": "8.2.5",
     "chromatic": "6.5.4",
     "codecov": "3.8.3",
