@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="container flex flex-row justify-center items-center mx-auto h-screen"
+        class="container mx-auto flex h-screen flex-row items-center justify-center"
       >
         <div
           class="text-center"
@@ -60,7 +60,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="container flex flex-row justify-center items-center mx-auto h-screen"
+      class="container mx-auto flex h-screen flex-row items-center justify-center"
     >
       <div
         class="text-center"

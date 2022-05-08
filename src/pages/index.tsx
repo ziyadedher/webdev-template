@@ -5,7 +5,7 @@ import Anchor from "../logic/anchor";
 import type { NextPage } from "next";
 
 const Index: NextPage = () => (
-  <div className="container flex flex-row justify-center items-center mx-auto h-screen">
+  <div className="container mx-auto flex h-screen flex-row items-center justify-center">
     <div className="text-center">
       <h1 className="text-6xl text-gray-700">Hello, world!</h1>
       <h2 className="pt-4">
