@@ -87,7 +87,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["source-map-support", "npm:0.5.21"],\
             ["tailwindcss", "virtual:84f8abea7570347e17b2d00b69287df55d6bf80366ee1aaad3fc6b6ad874e10ae7db469a011473d3b73ed6cec8ff3d7e4def48938e163bdd14133e2e1f3a6fcb#npm:3.0.24"],\
             ["ts-jest", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:28.0.4"],\
-            ["ts-node", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.8.0"],\
+            ["ts-node", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.8.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -22170,17 +22170,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["ts-node", [\
-        ["npm:10.8.0", {\
-          "packageLocation": "./.yarn/cache/ts-node-npm-10.8.0-e60a0a9a4f-1c22dc8dd8.zip/node_modules/ts-node/",\
+        ["npm:10.8.1", {\
+          "packageLocation": "./.yarn/cache/ts-node-npm-10.8.1-24280b0982-7d1aa7aa3a.zip/node_modules/ts-node/",\
           "packageDependencies": [\
-            ["ts-node", "npm:10.8.0"]\
+            ["ts-node", "npm:10.8.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.8.0", {\
-          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-1d12b76ed7/0/cache/ts-node-npm-10.8.0-e60a0a9a4f-1c22dc8dd8.zip/node_modules/ts-node/",\
+        ["virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.8.1", {\
+          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-a396babc42/0/cache/ts-node-npm-10.8.1-24280b0982-7d1aa7aa3a.zip/node_modules/ts-node/",\
           "packageDependencies": [\
-            ["ts-node", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.8.0"],\
+            ["ts-node", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.8.1"],\
             ["@cspotcode/source-map-support", "npm:0.8.1"],\
             ["@swc/core", null],\
             ["@swc/wasm", null],\
@@ -23099,7 +23099,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["source-map-support", "npm:0.5.21"],\
             ["tailwindcss", "virtual:84f8abea7570347e17b2d00b69287df55d6bf80366ee1aaad3fc6b6ad874e10ae7db469a011473d3b73ed6cec8ff3d7e4def48938e163bdd14133e2e1f3a6fcb#npm:3.0.24"],\
             ["ts-jest", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:28.0.4"],\
-            ["ts-node", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.8.0"],\
+            ["ts-node", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:10.8.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
