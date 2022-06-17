@@ -56,7 +56,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prettier", "npm:2.6.3"],\
             ["@types/react", "npm:18.0.14"],\
             ["@types/source-map-support", "npm:0.5.4"],\
-            ["@types/testing-library__jest-dom", "npm:5.14.3"],\
+            ["@types/testing-library__jest-dom", "npm:5.14.4"],\
             ["@typescript-eslint/eslint-plugin", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:5.28.0"],\
             ["@typescript-eslint/parser", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:5.28.0"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.9"],\
@@ -7859,6 +7859,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-testing-library__jest-dom-npm-5.14.3-0aa35d2c00-203443d0e7.zip/node_modules/@types/testing-library__jest-dom/",\
           "packageDependencies": [\
             ["@types/testing-library__jest-dom", "npm:5.14.3"],\
+            ["@types/jest", "npm:28.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.14.4", {\
+          "packageLocation": "./.yarn/cache/@types-testing-library__jest-dom-npm-5.14.4-c5439b63e2-1d67a42175.zip/node_modules/@types/testing-library__jest-dom/",\
+          "packageDependencies": [\
+            ["@types/testing-library__jest-dom", "npm:5.14.4"],\
             ["@types/jest", "npm:28.1.1"]\
           ],\
           "linkType": "HARD"\
@@ -23276,7 +23284,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prettier", "npm:2.6.3"],\
             ["@types/react", "npm:18.0.14"],\
             ["@types/source-map-support", "npm:0.5.4"],\
-            ["@types/testing-library__jest-dom", "npm:5.14.3"],\
+            ["@types/testing-library__jest-dom", "npm:5.14.4"],\
             ["@typescript-eslint/eslint-plugin", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:5.28.0"],\
             ["@typescript-eslint/parser", "virtual:9ab0fb16a81540c206b78c70ccd963211ec9ff4e2a0d9cee071b24c87d6795824e7098ca3eb448b1255ec036005f865de1ee3852e4fef756e2699bfb3496b2fe#npm:5.28.0"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.9"],\
