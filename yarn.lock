@@ -4220,7 +4220,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.0.14, @types/react@npm:>=16":
+"@types/react@npm:*, @types/react@npm:>=16":
   version: 18.0.14
   resolution: "@types/react@npm:18.0.14"
   dependencies:
@@ -4228,6 +4228,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 608eb57a383eedc54c79949673e5e8314f6b0c61542bff58721c8c47a18c23e2832e77c656050c2c2c004b62cf25582136c7c56fe1b6263a285c065fae31dbcf
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.0.25":
+  version: 18.0.25
+  resolution: "@types/react@npm:18.0.25"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 231d658c45abdef044a716b4502774f1585d8336d73b2f5bd68f181acbfc874b7a457686ecd29b415b43ed0922c309bab7e2cf96832d188a3f4f1b02f2af760a
   languageName: node
   linkType: hard
 
@@ -17194,7 +17205,7 @@ __metadata:
     "@types/mdx-js__react": 1.5.5
     "@types/node": 17.0.31
     "@types/prettier": 2.6.3
-    "@types/react": 18.0.14
+    "@types/react": 18.0.25
     "@types/source-map-support": 0.5.4
     "@types/testing-library__jest-dom": 5.14.5
     "@typescript-eslint/eslint-plugin": 5.30.0
