@@ -8,11 +8,11 @@ const Page = () => (
         This is{" "}
         <span className="text-blue-500 hover:text-blue-700">
           <Link
-            href="https://twitter.com/ziyadedher"
+            href="https://ziyadedher.com"
             rel="noopener noreferrer"
             target="_blank"
           >
-            @ziyadedher
+            Ziyad Edher
           </Link>
         </span>
         &rsquo;s webapp template.
