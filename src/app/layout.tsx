@@ -1,0 +1,37 @@
+import Script from "next/script";
+import "tailwindcss/tailwind.css";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
+export const metadata = {
+  title: "Ziyad Edher's Webdev Template",
+  description:
+    "A template for webapps using Next.js, Tailwind CSS, and TypeScript.",
+};
+
+const GA_MEASUREMENT_ID =
+  process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_MEASUREMENT_ID;
+
+const Layout = ({ children }: { children: React.ReactNode }) => (
+  <html lang="en">
+    <body>
+      {children}
+      <Analytics />
+      <SpeedInsights />
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+      />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', '${GA_MEASUREMENT_ID}');
+        `}
+      </Script>
+    </body>
+  </html>
+);
+
+export default Layout;

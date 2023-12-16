@@ -1,16 +1,14 @@
-# yarn pnp zero-install
-/.yarn/*
-!/.yarn/patches
-!/.yarn/plugins
-!/.yarn/releases
-!/.yarn/sdks
-!/.yarn/cache
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
 
 # testing
 /coverage
 
 # next.js
-.next/
+/.next/
 /out/
 
 # production
@@ -26,13 +24,13 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env*.local
 
 # vercel
 .vercel
 
-# node (mostly for storybook)
-node_modules
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+/public/*
