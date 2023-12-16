@@ -1,18 +1,18 @@
 import Link from "next/link";
 
-import Anchor from "../logic/anchor";
-
-import type { NextPage } from "next";
-
-const Index: NextPage = () => (
+const Page = () => (
   <div className="container mx-auto flex h-screen flex-row items-center justify-center">
     <div className="text-center">
       <h1 className="text-6xl text-gray-700">Hello, world!</h1>
       <h2 className="pt-4">
         This is{" "}
         <span className="text-blue-500 hover:text-blue-700">
-          <Link href="https://twitter.com/ziyadedher" passHref>
-            <Anchor shouldOpenInNewPage>@ziyadedher</Anchor>
+          <Link
+            href="https://ziyadedher.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Ziyad Edher
           </Link>
         </span>
         &rsquo;s webapp template.
@@ -20,8 +20,12 @@ const Index: NextPage = () => (
       <h3 className="pt-3">
         Check this template out on{" "}
         <span className="text-blue-500 hover:text-blue-700">
-          <Link href="https://github.com/ziyadedher/webdev-template" passHref>
-            <Anchor shouldOpenInNewPage>GitHub</Anchor>
+          <Link
+            href="https://github.com/ziyadedher/webdev-template"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            GitHub
           </Link>
         </span>
         !
@@ -30,4 +34,4 @@ const Index: NextPage = () => (
   </div>
 );
 
-export default Index;
+export default Page;
