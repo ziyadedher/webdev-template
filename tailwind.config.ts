@@ -1,12 +1,17 @@
+import defaultTheme from "tailwindcss/defaultTheme";
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {},
-  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography"), require("flowbite/plugin")],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+      },
+    },
+  },
+  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
 };
 
 export default config;

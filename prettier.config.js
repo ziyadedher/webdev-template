@@ -1,8 +1,7 @@
 /** @type {import("prettier").Config} */
-const config = {
-  tabWidth: 2,
-  useTabs: false,
+const CONFIG = {
+  printWidth: 120,
   plugins: ["prettier-plugin-tailwindcss"],
 };
 
-module.exports = config;
+module.exports = CONFIG;
