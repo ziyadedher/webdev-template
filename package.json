@@ -28,7 +28,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.35",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-import-resolver-typescript": "^4.0.0",
     "postcss": "^8",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.7.0",
