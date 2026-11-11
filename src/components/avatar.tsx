@@ -50,7 +50,7 @@ export function Avatar({
       )}
       {src && <Image src={src} alt={alt} />}
       {/* Add an inset border that sits on top of the image */}
-      <span className="ring-1 ring-inset ring-black/5 dark:ring-white/5 forced-colors:outline" aria-hidden="true" />
+      <span className="ring-1 ring-inset ring-black/5 dark:ring-white/5 forced-colors:outline-solid" aria-hidden="true" />
     </span>
   );
 }
@@ -69,7 +69,7 @@ export const AvatarButton = React.forwardRef(function AvatarButton(
   let classes = clsx(
     className,
     square ? "rounded-lg" : "rounded-full",
-    "relative focus:outline-none data-[focus]:outline data-[focus]:outline-2 data-[focus]:outline-offset-2 data-[focus]:outline-blue-500",
+    "relative focus:outline-hidden data-focus:outline-solid data-focus:outline-2 data-focus:outline-offset-2 data-focus:outline-blue-500",
   );
 
   return "href" in props ? (
